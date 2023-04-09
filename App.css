@@ -1,0 +1,33 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.parallax::-webkit-scrollbar {
+  background: transparent;
+  width: 0px;
+}
+
+body::-webkit-scrollbar {
+  background: transparent;
+  width: 0px;
+}
+.project_btn {
+  color: white;
+}
+.project_btn:hover {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.my-div {
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.my-div.visible {
+  background-color: black;
+  opacity: 1;
+}
